@@ -3,7 +3,9 @@ import './App.css';
 // import Info from './Info';
 // import Addition from './Addition';
 // import Information from './Information';
-import SalarySlip from './SalarySlip';
+// import SalarySlip from './SalarySlip';
+import Percentage from './Percentage';
+
 
 
 function App() {
@@ -22,8 +24,13 @@ function App() {
    {/* <Information  name="osric" city="London"/>
    <Information  name="Jo" city="Arsenal"/> */}
 
-   <SalarySlip name = "Osric" salary = "10000"/>
-   <SalarySlip name = "James" salary = "1000"/>
+   {/* <SalarySlip name = "Osric" salary = "10000"/>
+   <SalarySlip name = "James" salary = "1000"/> */}
+
+   <Percentage name = "Osric" maths= "90" sci="70"/>
+   <Percentage name = "Jay" maths= "100" sci="100"/>
+
+   
    </>
   );
 }
